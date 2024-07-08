@@ -1,0 +1,7 @@
+p2score_path: /home/kzl6/datasets/ithaca365/p2_score_fw70_5m_20hist
+# p2score_path: /home/kzl6/datasets/ithaca365/p2_score_fw70_5m_5hist
+scan_path: /share/campbell/Skynet/nuScene_format/v1.1
+version: 'v1.1'
+only_accurate_localization: True
+
+image_shape: [1920, 1208]

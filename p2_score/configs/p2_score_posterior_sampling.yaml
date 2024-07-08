@@ -1,0 +1,38 @@
+work_dir: ${hydra:runtime.cwd}
+save_dir: ${hydra:run.dir}
+
+defaults:
+  - data_paths: default.yaml
+  - _self_
+
+result_path: ???
+save_path: ???
+dataset: lyft
+
+n_processes: 8
+
+det_filtering:
+  pp_score_percentile: 20
+  pp_score_threshold: 0.5
+  and_operation: true
+  confidence_score_threshold: -1
+  soft_pp_score_threshold: 999.
+  soft_confidence_score_threshold: -1
+
+  check_consistency:
+    threshold: 0.3
+    ratio: 0.5
+
+  check_aum:
+    threshold: -1.
+
+  remove_near_fov:
+    border: 100
+
+  posterior_sampling: # sample with replacement with the confidence to match the posterior distribution
+    by_aum: False # use AUM for confidence
+    min_val: 0.25 # confidence less than this value will not be sampled
+    seed: 666
+    Car: 1.21
+    Pedestrian: 0.186
+    Cyclist: 0.061

@@ -1,0 +1,5 @@
+# ninja log v5
+2	1981	1662423345752654390	/home/tz98/continual-DA/p2_score/utils/iou3d_nms/build/temp.linux-x86_64-3.8/src/iou3d_nms_kernel.o	119b22b94b1a9924
+1	10359	1662423354120943184	/home/tz98/continual-DA/p2_score/utils/iou3d_nms/build/temp.linux-x86_64-3.8/src/iou3d_cpu.o	172c183b7a2c20c0
+1	10592	1662423354356951329	/home/tz98/continual-DA/p2_score/utils/iou3d_nms/build/temp.linux-x86_64-3.8/src/iou3d_nms.o	95f32d740af5d314
+1	17433	1662423361181186838	/home/tz98/continual-DA/p2_score/utils/iou3d_nms/build/temp.linux-x86_64-3.8/src/iou3d_nms_api.o	7031d90a066a6804

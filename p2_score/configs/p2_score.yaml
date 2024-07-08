@@ -1,0 +1,10 @@
+work_dir: ${hydra:runtime.cwd}
+save_dir: ${hydra:run.dir}
+
+defaults:
+  - data_paths: default.yaml
+  - _self_
+
+dataset: lyft
+# start_idx: ???
+# end_idx: ???
